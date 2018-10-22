@@ -3,6 +3,7 @@ import dis
 
 
 def swap(l, i1, i2):
+    """naive swap"""
     tmp = i1
     if i1 > i2:
         i1 = i2
@@ -14,6 +15,7 @@ def swap(l, i1, i2):
 
 
 def py_swap(l, i1, i2):
+    """pythonic swap"""
     l[i1], l[i2] = l[i2], l[i1]
 
 
